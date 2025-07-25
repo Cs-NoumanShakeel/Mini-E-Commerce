@@ -51,7 +51,7 @@ export default function Cart() {
     try {
       const token = localStorage.getItem(ACCESS_TOKEN);
       if (!token) {
-        alert("❌ No access token found. Please login again.");
+        alert(" No access token found. Please login again.");
         return;
       }
 
@@ -61,16 +61,16 @@ export default function Cart() {
         },
       });
 
-      console.log("✅ Order placed:", response.data);
-      alert("✅ Order placed successfully!");
+      console.log(" Order placed:", response.data);
+      alert(" Order placed successfully!");
       setDisabledItems(newDisabledItems);
       setTotalPrice(calculatedTotal);
       setOrderId(response.data.id); 
       setOrderPlaced(true);
     } catch (error) {
-      console.error("❌ Order failed:", error);
+      console.error(" Order failed:", error);
       const msg = error.response?.data?.detail || JSON.stringify(error.response?.data || error.message);
-      alert("❌ Order failed: " + msg);
+      alert(" Order failed: " + msg);
     }
   };
 
@@ -107,7 +107,7 @@ const handleUpdateItem = async (itemId, newPrice, newQuantity) => {
 
 
   } catch (error) {
-    console.error("❌ Failed to update order item:", error);
+    console.error(" Failed to update order item:", error);
     alert("Something went wrong while updating the item.");
   }
 };
@@ -125,7 +125,7 @@ const handleUpdateItem = async (itemId, newPrice, newQuantity) => {
     } else {
       const token = localStorage.getItem(ACCESS_TOKEN);
       if (!orderId) {
-        alert("❌ Cannot delete. Order ID is missing.");
+        alert(" Cannot delete. Order ID is missing.");
         return;
       }
       const orderedItem = orders.find(order => order.product === productId);
@@ -145,7 +145,7 @@ const handleUpdateItem = async (itemId, newPrice, newQuantity) => {
         setOrderPlaced(false);
         setOrderId(null);
       } catch (error) {
-        console.error("❌ Failed to delete order:", error);
+        console.error(" Failed to delete order:", error);
         alert("Failed to delete order: " + (error.response?.data?.detail || error.message));
       }
     }
