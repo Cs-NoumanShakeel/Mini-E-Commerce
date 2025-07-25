@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Fjallraven Backpack",
+    "description": "Perfect for everyday use or short hikes.",
+    "price": 109.95,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Casual T-Shirt",
+    "description": "Slim-fit removable raglan sleeves.",
+    "price": 22.30,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1589978078910-089f8a1f0265?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Cotton Jacket",
+    "description": "Great for spring/autumn/winter.",
+    "price": 55.99,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Slim Fit Shirt",
+    "description": "Colors vary slightly from screen to actual product.",
+    "price": 15.99,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1593032465178-4ea71f78dd37?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Legend Naga Bracelet",
+    "description": "Gold & silver dragon station chain bracelet.",
+    "price": 695,
+    "stock": 5,
+    "image": "https://images.unsplash.com/photo-1526378723115-4d131d5cf7f0?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Petite Diamond Ring",
+    "description": "Micropave solid gold ring.",
+    "price": 168,
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1531925470859-7255591f945b?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Princess Solitaire Ring",
+    "description": "White gold plated engagement ring.",
+    "price": 9.99,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Rose Gold Earrings",
+    "description": "Stainless steel tunnel plug earrings.",
+    "price": 10.99,
+    "stock": 200,
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155223f9c5?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Portable Hard Drive",
+    "description": "2TB USB 3.0 portable drive.",
+    "price": 64,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1581349485744-546e05240ffc?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "1TB SSD",
+    "description": "Fast SATA SSD ideal for laptops/desktops.",
+    "price": 109,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1580657016033-225dba40e67f?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "256GB SSD",
+    "description": "Reliable SATA III internal solid state drive.",
+    "price": 109,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1581276879432-15a1ba29c902?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Gaming External Drive",
+    "description": "WD 4TB specially for gaming devices.",
+    "price": 114,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1560200352-8c73b052a360?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "IPS Monitor",
+    "description": "Ultrathin 21.5\" FreeSync Full HD monitor.",
+    "price": 599,
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1616627980537-9ba1525a6196?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "49\" Ultrawide Monitor",
+    "description": "Super ultrawide 32:9 screen with HDR.",
+    "price": 999.99,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1628190997482-9f8802f44e88?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Snowboard Jacket",
+    "description": "Women's 3-in-1 waterproof snowboard jacket.",
+    "price": 56.99,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1581982537312-c804b82a0dd5?auto=format&fit=crop&w=400&q=80",
+    "created_at": "2025-07-19T12:00:00Z"
+  }
+]
